@@ -1,12 +1,22 @@
 # BreastCancer
+<br>
+<details>
+    <summary> 
+        ## Steps to run
+    </summary>
+    
+    
+    ### 1.> Set up venv
+    ### 2.> Set Flask
+        set FLASK_ENV=development
+        set FLASK_APP=app
+    ### 3.> Run Flask
+        flask run
 
-## Steps to run
+</details>
+<br>
 
-### 1.> Set up venv
-### 2.> Set Flask
-    set FLASK_ENV=development
-    set FLASK_APP=app
-### 3.> Run Flask
-    flask run
+
 # output : 
 ![image info](./static/images/frontend.png)
+
