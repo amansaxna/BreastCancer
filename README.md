@@ -2,7 +2,7 @@
 <br>
 <details>
     <summary> 
-        ## Steps to run
+        Steps to run
     </summary>
     
     

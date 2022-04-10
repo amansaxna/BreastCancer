@@ -15,15 +15,15 @@
 <body>
  <div class="login">
 	<h1>Breast Cancer Classifier</h1>
-     <h3> Enter the following values to predict Breast Cancer Severity</h3>
+     <h3> Enter the following values(area_mean, area_se, texture_mean, concavity_worst and concavity_mean) to predict Breast Cancer Severity</h3>
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="par1" placeholder="par1" required="required" />
-        <input type="text" name="par2" placeholder="par2" required="required" />
-		<input type="text" name="par3" placeholder="par3" required="required" />
-        <input type="text" name="par4" placeholder="par4" required="required" />
-        <input type="text" name="par5" placeholder="par5" required="required" />
+    	<input type="text" name="area_mean" placeholder="area_mean" required="required" />
+        <input type="text" name="area_se" placeholder="area_se" required="required" />
+		<input type="text" name="texture_mean" placeholder="texture_mean" required="required" />
+        <input type="text" name="concavity_worst" placeholder="concavity_worst" required="required" />
+        <input type="text" name="concavity_mean" placeholder="concavity_mean" required="required" />
 
         <button type="submit" class="btn">Predict</button>
     </form>
