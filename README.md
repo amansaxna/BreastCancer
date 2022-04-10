@@ -8,3 +8,5 @@
     set FLASK_APP=app
 ### 3.> Run Flask
     flask run
+# output : 
+![image info](./static/images/frontend.png)
